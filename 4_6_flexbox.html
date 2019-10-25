@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Exercise</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HTML Elements
+          </a>
+          <div class="dropdown-menu" aria-labelledby="html">
+            <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+            <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+            <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+            <a class="dropdown-item" href="1_5_code.html">Code</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Utilities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="utilities">
+            <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+            <a class="dropdown-item" href="2_3_floats_position.html">Floats & Position</a>
+            <a class="dropdown-item" href="2_4_colors_background.html">Colors & Background</a>
+            <a class="dropdown-item" href="2_5_spacing_sizing.html">Spacing & Sizing</a>
+            <a class="dropdown-item" href="2_6_border_shadow.html">Border & Shadow</a>
+          </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Css Components
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="3_2_buttons.html">Buttons</a>
+              <a class="dropdown-item" href="3_3_nav_navbar.html">Nav & Navbar</a>
+              <a class="dropdown-item" href="3_4_jumbotron.html">Jumbotron</a>
+              <a class="dropdown-item" href="3_5_list_groups_badges.html">List Groups & Badges</a>
+              <a class="dropdown-item" href="3_6_form_inputs.html">Form & Inputs</a>
+              <a class="dropdown-item" href="3_7_inputs_group.html">Input Groups</a>
+              <a class="dropdown-item" href="3_8_alerts_progress.html">Alerts & Progress</a>
+              <a class="dropdown-item" href="3_9_pagination.html">Pagination</a>
+              <a class="dropdown-item" href="3_10_cards.html">Cards</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Grid & Flexbox
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="4_2_container_row_column.html">4.2 Container, Row & Column</a>
+              <a class="dropdown-item" href="4_3_responsive_breakpoints.html">4.3 Responsive Breakpoints</a>
+              <a class="dropdown-item" href="4_4_grid_system.html">4.4 Grid System</a>
+              <a class="dropdown-item" href="4_5_grid_alignment.html">4.5 Grid Alignment</a>
+              <a class="dropdown-item active" href="4_6_flexbox.html">4.6 Flexbox</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Javascript Widgets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="5_2_carousel.html">5.2 Carousel</a>
+              <a class="dropdown-item" href="">5.3 Collapse</a>
+              <a class="dropdown-item" href="">5.4 Dropdowns</a>
+              <a class="dropdown-item" href="">5.5 Popovers</a>
+              <a class="dropdown-item" href="">5.6 Modals</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+
+    <!-- ################# Start Exercise ################-->
+    <header class="text-center text-primary my-4">
+      <h2>Flexbox</h2>
+    </header>
+
+    <div class="container">
+
+      <h3 class="text-info">Flex Row & Direction</h3>
+
+      <div class="mb-4 d-flex flex-row" style="border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Flex item 1</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Flex item 2</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Flex item 3</div>
+      </div>
+      <div class="mb-4 d-flex flex-row-reverse" style="border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Flex item 1</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Flex item 2</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Flex item 3</div>
+      </div>
+
+      <br><br><hr><br>
+
+      <h5 class="text-center text-primary">Justify Content</h5>
+
+      <div class="mb-4 d-flex justify-content-start" style="height:100px; border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Start</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Start</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Start</div>
+      </div>
+
+      <div class="mb-4 d-flex justify-content-end" style="height:100px;border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">End</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">End</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">End</div>
+      </div>
+
+      <div class="mb-4 d-flex justify-content-center" style="height:100px; border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Center</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Center</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Center</div>
+      </div>
+
+      <div class="mb-4 d-flex justify-content-between" style="height:100px;border: 1px solid rgb(255, 187, 0)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Between</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Between</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Between</div>
+      </div>
+
+      <div class="mb-4 d-flex justify-content-around" style="height:100px;border: 1px solid rgb(231, 216, 9)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Around</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Around</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc">Around</div>
+      </div>
+
+      <br><br><hr><br>
+
+      <h5 class="text-center text-primary">Align Items</h5>
+
+      <div class="mb-4 d-flex align-items-start" style="height:100px; border: 1px solid rgb(7, 240, 58)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 3em;">Start</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: .3em;">Start</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 1em;">Start</div>
+      </div>
+
+      <div class="mb-4 d-flex align-items-end" style="height:100px; border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 3em;">End</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: .3em;">End</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 1.5em;">End</div>
+      </div>
+
+      <div class="mb-4 d-flex align-items-center" style="height:100px; border: 1px solid rgb(226, 69, 7)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 3em;">Center</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: .3em;">Center</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 1.5em;">Center</div>
+      </div>
+
+      <div class="mb-4 d-flex align-items-baseline" style="height:100px; border: 1px solid rgb(78, 8, 206)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 3em;">Baseline</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: .3em;">Baseline</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 1.5em;">Baseline</div>
+      </div>
+
+      <div class="mb-4 d-flex align-items-baseline" style="height:100px; border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 3em;">Baseline</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: .3em;">Baseline</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 1.5em;">Baseline</div>
+      </div>
+
+      <div class="mb-4 d-flex align-items-stretch" style="height:100px; border: 1px solid rgb(47, 160, 197)">
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 3em;">Strech</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: .3em;">Strech</div>
+        <div class="p-2 bg-light" style="border: 1px solid #ccc; font-size: 1.5em;">Strech</div>
+      </div>
+
+      <br><hr class="bg-dark"><br>
+
+      <h5 class="text-primary text-center">Align Self (pengaturan flex per-kolom)</h5>
+
+      <div class="d-flex my-4" style="height: 300px; border:1px solid rgb(10, 243, 68)">
+        <div class="p-4 bg-light" style="border: 1px #ccc solid">non-flex</div>
+        <div class="p-4 bg-light align-self-start" style="border: 1px #ccc solid">Start</div>
+        <div class="p-4 bg-light align-self-center" style="border: 1px #ccc solid">Center</div>
+        <div class="p-4 bg-light align-self-end" style="border: 1px #ccc solid">End</div>
+        <div class="p-4 bg-light align-self-baseline" style="border: 1px #ccc solid">Baseline</div>
+        <div class="p-4 bg-light align-self-stretch" style="border: 1px #ccc solid">Stretch</div>
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!--#################### AKHIR ######################-->
+
+    <div style="margin-top: 400px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

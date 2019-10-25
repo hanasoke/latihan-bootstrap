@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Exercise</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HTML Elements
+          </a>
+          <div class="dropdown-menu" aria-labelledby="html">
+            <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+            <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+            <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+            <a class="dropdown-item" href="1_5_code.html">Code</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Utilities
+            </a>
+            <div class="dropdown-menu" aria-labelledby="utilities">
+              <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+              <a class="dropdown-item" href="2_3_floats_position.html">Floats & Position</a>
+              <a class="dropdown-item" href="2_4_colors_background.html">Colors & Background</a>
+              <a class="dropdown-item" href="2_5_spacing_sizing.html">Spacing & Sizing</a>
+              <a class="dropdown-item" href="2_6_border_shadow.html">Border & Shadow</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Css Components
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="3_2_buttons.html">Buttons</a>
+                <a class="dropdown-item" href="3_3_nav_navbar.html">Nav & Navbar</a>
+                <a class="dropdown-item" href="3_4_jumbotron.html">Jumbotron</a>
+                <a class="dropdown-item" href="3_5_list_groups_badges.html">List Groups & Badges</a>
+                <a class="dropdown-item" href="">Form & Inputs</a>
+                <a class="dropdown-item" href="">Input Groups</a>
+                <a class="dropdown-item" href="">Alerts & Progress</a>
+                <a class="dropdown-item" href="">Pagination</a>
+                <a class="dropdown-item" href="">Cards</a>
+              </div>
+            </li>
+        </ul>
+      </nav>
+
+      <!-- ######### Start Exercise #########-->
+
+      <div class="container">
+        <header class="text-center my-4">
+          <h2 class="text-primary display-3">Nav & Navbar</h2>
+        </header>
+
+        <h5 class="text-success">Nav / Navigasi Sederhana</h5>
+        <ul class="nav text-uppercase">
+            <li class="nav-item">
+                <a class="nav-link active text-dark" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+
+        <br><hr>
+
+        <h1 class="text-monospace text-warning">Nav / Navigasi Sederhana (Tanpa tag &lt;ul&gt;)</h1>
+        <nav class="nav">
+          <a class="nav-link active text-danger h3" href="#">PUBG</a>
+          <a class="nav-link" href="#">Assasin Creed</a>
+          <a class="nav-link" href="#">GTA 5</a>
+          <a class="nav-link" href="#">Need For Speed</a>
+          <a class="nav-link disabled" href="#">Fruit Ninja</a>
+        </nav>
+
+        <br><hr>
+
+        <h1 class="display-4 text-lowercase text-info">Nav berdasarkan Alignment</h1>
+
+        <nav class="nav justify-content-center">
+          <a class="nav-link active text-info" href="#">Garuda</a>
+          <a class="nav-link" href="#">Lion Air</a>
+          <a class="nav-link" href="#">Qatar</a>
+          <a class="nav-link disabled" href="#">Air Asia</a>
+        </nav>
+
+        <br><hr>
+
+        <h1 class="text-monospace text-center text-success">Nav disebelah kanan</h1>
+
+        <nav class="nav justify-content-end">
+          <a class="nav-link active text-warning h4" href="#">Asus</a>
+          <a class="nav-link" href="#">Lenovo</a>
+          <a class="nav-link disabled" href="#">Mac</a>
+          <a class="nav-link" href="#">Dell</a>
+        </nav>
+
+        <br><hr>
+
+        <h5 class="text-success display-4">Nav Vertical</h5>
+
+        <nav class="nav flex-column">
+          <a class="nav-link active" href="#">Bella Almira</a>
+          <a class="nav-link" href="#">Ajeng</a>
+          <a class="nav-link disabled text-danger" href="#">Nurul Utami</a>
+          <a class="nav-link" href="#">Laudy Chintia Bella</a>
+          <a class="nav-link" href="#">Thalia</a>
+        </nav>
+
+        <br><hr>
+
+        <h5 class="text-danger text-center font-weight-normal">Nav Pills</h5>
+
+        <nav class="nav nav-fill nav-pills">
+          <a class="nav-link" href="#">Hanas</a>
+          <a class="nav-link active bg-dark" href="#">Wais</a>
+          <a class="nav-link disabled" href="#">Dinov</a>
+          <a class="nav-link disabled" href="#">Fadhil</a>
+          <a class="nav-link disabled" href="#">Apis</a>
+          <a class="nav-link text-success" href="#">Alfian</a>
+        </nav>
+        
+        <br><hr>
+
+        <h5 class="text-center font-weight-normal p-3" style="color: aqua; border:2px solid blueviolet;">Fill & Justify</h5>
+
+        <nav class="nav nav-fill nav-pills">
+          <a class="nav-item nav-link active" href="#">Al-Balad</a>
+          <a class="nav-item nav-link" href="#">Al-Humazah</a>
+          <a class="nav-item nav-link" href="#">An-Nas</a>
+          <a class="nav-item nav-link active bg-warning text-dark" href="#">Al-Kafirun</a>
+          <a class="nav-item nav-link disabled" href="#">An-Naba</a>
+        </nav>
+
+        <br><hr>
+
+        <h4 class="text-center">Simple Navbar</h4>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">Al-QUR'AN KU</a>
+          
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Surah<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Qori</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tilawah</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div> <!-- container -->
+
+      <br><hr>
+
+      <div class="container">
+        <h5>Simple Navbar (tanpa container)</h5>
+      </div>
+
+      <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+        <a class="navbar-brand" href="#">Ilmu</a>
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Matematika</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-danger" href="#">Fisika</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Kimia</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Biologi</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><hr>
+
+      <div class="container">
+        <h5>Navbar Lengkap</h5>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">TV</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">TVRI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NET.TV</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV Hari Tanoe</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">RCTI</a>
+                <a class="dropdown-item" href="#">MNCTV</a>
+                <a class="dropdown-item" href="#">Global-TV</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV CT</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">TRANS-TV</a>
+                  <a class="dropdown-item" href="#">TRANS-7</a>
+                </div>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+
+      <br><hr>
+
+      <div class="container">
+          <h5>Navbar Lengkap</h5>
+        </div>
+
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning mb-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">Channel</a>
+          <ul class="nav navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">SB-30</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">SH-30</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WPU</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-success" href="#">Rolli Supiawan</a>
+                </li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+          <div class="container">
+            <a class="navbar-brand" href="#">Channel</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">SB-30</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SH-30</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">WPU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rolli Supiawan</a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-danger mb-3">
+            <div class="container">
+              <a class="navbar-brand" href="#">Channel</a>
+              <ul class="nav navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">SB-30</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">SH-30</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" href="#">WPU</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Rolli Supiawan</a>
+                    </li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav class="navbar navbar-expand-sm navbar-dark bg-success mb-3">
+              <div class="container">
+                <a class="navbar-brand" href="#">Channel</a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SB-30</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" href="#">SH-30</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">WPU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rolli Supiawan</a>
+                      </li>
+                </ul>
+              </div>
+            </nav>
+
+            <br><hr>
+
+            <div class="container text-center">
+              <h5 class="display-4">Penempatan Navbar</h5>
+            </div>
+
+            <!-- fixed-top, fixed-bottom, sticky-top -->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 sticky-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#">Sosmed</a>
+                  <ul class="nav navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Youtube</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#">Facebook</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Instagram</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Line</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">WA</a>
+                        </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eius numquam nisi facilis ipsam nobis, assumenda, mollitia maiores iste veritatis, sit eos. Porro ad possimus corporis eos a voluptates hic ipsam. Voluptatum blanditiis repudiandae exercitationem laudantium inventore accusantium reiciendis placeat cumque minima aspernatur. Iure laudantium sapiente autem, itaque amet nihil impedit, earum perspiciatis illo iste expedita hic officiis fugiat! Enim totam nihil modi ducimus. Consequuntur quam dicta, officia est saepe necessitatibus recusandae cum dolore hic nam enim dolor non consectetur! Aspernatur nam totam at natus quod illo delectus itaque reiciendis, facilis repellendus quibusdam sunt voluptatum, nihil nisi nostrum eaque quasi aliquid officia porro? A non eveniet tempora alias temporibus hic laudantium officiis, dolorem earum perferendis, porro sunt aliquid, officia itaque voluptas quaerat dignissimos esse tenetur ad. Illum saepe exercitationem eveniet, ipsa pariatur tempora consequatur sunt ullam, ipsam aspernatur corporis nulla eum incidunt repellendus possimus atque consectetur laboriosam omnis natus quisquam iusto quidem ab fugiat dolor. Recusandae soluta quia ratione veniam velit illo totam adipisci omnis aliquam sed accusamus quod vitae voluptatem, alias repudiandae iusto distinctio. Quam corporis vel dolorum eius sit quo laudantium odio laboriosam aut animi, optio minima? Et, corporis sunt! Facere in dolorem quo quibusdam officia saepe exercitationem omnis est. Quisquam minima deleniti, atque iure inventore saepe nobis quidem repellat vero laboriosam laborum necessitatibus, qui natus, magnam corrupti. Libero error necessitatibus illum ea, numquam perferendis natus a totam earum. Quas corporis hic quia sint praesentium unde nulla ratione aperiam, aspernatur modi sed beatae ipsa alias nam ipsam? Qui nihil quaerat facere quo perspiciatis voluptates ipsum tempore! Autem enim earum animi laborum. Natus, impedit quos, sunt quis quaerat voluptate blanditiis quae amet dicta repudiandae sit dolorem id earum? Porro ducimus unde vero atque iste dolorum facilis modi ipsum, possimus magni inventore quis sapiente perspiciatis quibusdam laudantium adipisci natus impedit, quo animi est! Modi enim exercitationem similique ducimus, eaque, minus et esse, iusto doloribus quia aspernatur atque! Sequi magni cupiditate cumque perferendis saepe aliquam voluptate delectus. Temporibus soluta vitae reprehenderit, necessitatibus ipsam possimus obcaecati nobis, rerum nostrum, totam excepturi libero officiis adipisci voluptatem provident esse expedita nisi qui nesciunt a sapiente magnam porro dicta ducimus! Dignissimos exercitationem dolores voluptates perferendis non! Veniam, illum! Sit explicabo culpa perferendis ipsa nulla molestias accusamus delectus, repellendus repellat deserunt sapiente error harum fuga iste aspernatur suscipit vel, ipsam obcaecati. Reprehenderit assumenda ab quia et deserunt blanditiis sunt? Mollitia aperiam, repellendus neque placeat laborum nam recusandae, est distinctio harum aut maxime doloribus? Porro maiores reiciendis expedita eligendi deleniti, veritatis veniam delectus, culpa voluptatem libero ut explicabo iste assumenda excepturi aliquid exercitationem sapiente aut tempore sunt ad temporibus suscipit. Impedit molestias non sequi, inventore placeat excepturi vitae nisi doloremque. Voluptatum, obcaecati ratione incidunt nemo quod in iste est esse unde ex reiciendis! Ut, ad. Cupiditate excepturi odit corrupti eum obcaecati cum illum. Soluta a fugit odio quas perspiciatis impedit, tenetur, pariatur illum velit eligendi itaque quo laudantium debitis blanditiis repellendus at molestias totam voluptates, maiores quam aperiam cum aut vitae sint. Cumque eos soluta eius quam, autem delectus, quos ab aperiam fugit debitis corrupti saepe dolorum repellat eaque explicabo! Repellat similique suscipit dolor praesentium officiis sint cumque saepe recusandae fuga adipisci! Tenetur quaerat adipisci sunt perspiciatis nisi iure rerum, quo corrupti quod? Aperiam recusandae quibusdam nobis ducimus ad adipisci maxime illo quisquam earum nostrum. Saepe quo quod corrupti quasi esse adipisci voluptatum pariatur rem blanditiis provident deserunt laboriosam expedita molestias dolorem voluptate, voluptates neque. Amet voluptatem voluptatibus non expedita, debitis minima saepe dolores consequuntur illo facere magnam iste repellat assumenda officia neque esse illum in dignissimos numquam unde odit molestiae nemo? Similique molestias doloribus commodi laboriosam, officia ullam quibusdam reprehenderit earum. Dolores neque omnis, numquam placeat tempore necessitatibus exercitationem eveniet aperiam quis. Magnam iste quibusdam, tempora neque nostrum iure odio consequuntur cum doloremque maxime. Enim molestias doloremque repudiandae, rem, culpa minima modi iste explicabo, sequi ad similique optio. Rem minus tenetur, molestiae eum quia eius tempore natus. In ullam eligendi tempore ex provident ab architecto odit saepe culpa quasi, amet neque totam voluptates tenetur? Maxime voluptate nesciunt consequuntur eaque voluptatem, magnam dolorem, repellendus autem provident aliquam minus deleniti. Aut suscipit alias, deleniti quia similique illum eveniet consequatur aspernatur laboriosam nihil eligendi aliquam nobis ea fugiat, repudiandae libero ad quae sapiente quam expedita veniam magnam dolor! Quia unde odio facilis quos laborum repellat officiis qui magnam delectus. Ex, deleniti quae. Perferendis tenetur modi consectetur, consequatur quia assumenda ducimus at incidunt et atque iure doloremque accusamus id possimus? Nulla possimus provident esse nam et ad eius, porro earum repellendus culpa sequi, magnam veritatis deserunt pariatur fugiat quas inventore ullam dolores est ipsa! Iure sequi saepe modi nisi placeat, iste odit aliquam rem fugit explicabo, maxime deleniti ab adipisci maiores repellat quidem? Repudiandae rerum eius dolorem rem placeat corrupti, quas natus quae eos magnam alias aliquam dignissimos temporibus eligendi est perspiciatis illum error exercitationem impedit explicabo! Quae deleniti, quibusdam repudiandae repellendus veritatis id laboriosam explicabo odio asperiores praesentium consectetur sunt fugit voluptatibus commodi? Similique reiciendis quaerat soluta placeat. Hic quaerat delectus, error harum quis enim perferendis ex dolores blanditiis, dignissimos commodi pariatur? Eius dolor est ducimus possimus accusantium. Ducimus obcaecati sed magni ad? Ratione commodi autem iste ea ab error omnis possimus numquam, nulla blanditiis modi voluptate. Magni accusantium officia modi illum cumque, corporis maiores pariatur labore adipisci tenetur molestias, voluptatum praesentium temporibus quod voluptatibus quam rerum, repellat soluta. Autem placeat, beatae tempora officia eaque cum exercitationem amet velit, recusandae fugiat assumenda, necessitatibus natus voluptas tenetur optio temporibus consectetur qui corrupti quod iure! Officiis illo sapiente repellendus magnam quaerat eligendi! Vel unde quibusdam eveniet veritatis! Aliquid minima eum dicta reprehenderit laboriosam assumenda ipsam deleniti magnam quibusdam maiores sit, eaque ducimus nam error quidem a sed illo tempora cupiditate ipsum aut optio rem? Hic aspernatur temporibus explicabo sint nam eius, et saepe eaque harum itaque. Quae quos natus molestias nostrum mollitia quod aperiam blanditiis distinctio nesciunt eaque. Dolor eos doloribus quia laborum suscipit nulla minima doloremque eius sapiente cumque atque, praesentium laboriosam nostrum fugiat nisi quisquam illo eveniet harum officiis officia iste? Accusamus iusto magni tempore exercitationem sequi aperiam, soluta nesciunt provident quidem excepturi ut voluptates adipisci, enim et facere fuga deserunt quo reprehenderit laborum omnis consectetur eaque molestiae aut esse? Culpa quas eos accusantium, assumenda distinctio blanditiis eaque nemo illo laborum facilis atque, tempore explicabo deleniti modi soluta reprehenderit voluptate dicta neque molestias numquam maiores quos repellat fugit! Mollitia numquam molestias quidem in ad earum corporis fugiat eveniet vitae quis nisi qui voluptate dolorum, sint maxime est officiis itaque fugit voluptates facere explicabo quam quasi. Esse excepturi consectetur nulla dolorum vitae iusto eaque inventore numquam, unde sapiente neque optio a ut debitis officiis? Mollitia ad necessitatibus officiis sapiente, corporis sed architecto? Sint odio earum reiciendis laboriosam veritatis, recusandae nesciunt, ratione asperiores laborum praesentium quasi explicabo sapiente quibusdam eligendi, quas quod enim? Fuga unde maiores voluptates, ipsam reiciendis similique voluptatibus. Consequatur, excepturi alias dolorem recusandae necessitatibus iusto ad. Sit corrupti consectetur dignissimos est omnis? Ipsa dolor ipsam temporibus, pariatur cum similique delectus voluptate at laborum eligendi explicabo blanditiis expedita corporis repellat nisi exercitationem iusto, tempora consequuntur optio eum, assumenda tenetur cumque? Voluptate tempora cum, quam assumenda facere expedita id! Ut, reiciendis at, eius rerum velit mollitia quibusdam ad alias nostrum sequi harum consequuntur perferendis aliquid beatae illum laudantium porro quod aut. Libero praesentium ex numquam, ipsum odit ipsa laudantium incidunt neque, eos dolore magni corrupti. Nulla est et aliquam ipsum iste sint perferendis nihil, cum necessitatibus soluta, porro, animi adipisci. Esse aliquam omnis vel dolores maxime doloribus quidem rerum ducimus tempora vero error, iste beatae voluptate nihil aperiam, ratione dolorem culpa sapiente provident cupiditate consectetur minima! Incidunt voluptatum eligendi ratione rem sint, similique distinctio suscipit minus vero obcaecati deleniti eaque beatae quidem ducimus, at id ullam doloremque. Vero, explicabo perspiciatis! Dolores, recusandae accusantium? Ab similique omnis ullam at libero soluta, provident laborum repellendus quam aliquid quaerat aspernatur, enim eum ipsum. Nostrum, laudantium animi sit optio possimus quia eum odio dignissimos, laborum, excepturi iste. Aliquid tenetur odio praesentium non nulla architecto ipsam perspiciatis quam, qui adipisci itaque? At illo optio nobis totam quasi deserunt, nihil laudantium alias. Ullam eveniet cupiditate dolores sint incidunt cumque quos autem facilis laborum a sequi deserunt minus numquam optio praesentium quibusdam odit unde nobis dolorem ipsa non soluta, temporibus omnis doloribus! Provident aliquid, sed porro mollitia accusamus tempore totam. Voluptatem dolore ex, repellat harum repudiandae omnis, recusandae corrupti error asperiores eos, quibusdam et veniam expedita? Facilis repellat error consectetur quae, reprehenderit a. Molestias in mollitia aliquam ea odit, totam esse eaque? Nemo error asperiores ea consequatur quo voluptas quam numquam sint facilis, at ab debitis id fuga eum et iusto reprehenderit nostrum doloremque recusandae? Labore porro repellat unde aperiam corrupti quaerat hic, voluptate veritatis tenetur impedit blanditiis debitis corporis minima velit autem neque? Voluptate, reiciendis vitae, ipsa, cum similique itaque aperiam ut voluptatibus earum quo assumenda eligendi. Commodi eum officiis reprehenderit repudiandae corporis dolores, eius culpa debitis. Quidem maiores eos architecto recusandae cupiditate nulla, ratione vero est incidunt deleniti sunt corrupti neque magni libero voluptatum iste eum dolorum. Sapiente dignissimos eveniet ut ea molestiae quia in, earum totam nisi praesentium distinctio esse fuga illum provident ducimus placeat nesciunt tempore cum dolores itaque nobis quis similique. Libero, sed rem hic id iure sit accusantium esse veniam aliquam quis quia aperiam reprehenderit quae magni, qui beatae excepturi? Laboriosam necessitatibus cupiditate libero in iure reprehenderit corrupti, ipsum voluptas rem nemo at recusandae suscipit ratione fuga totam deleniti natus sed? Dolorum aliquid incidunt tempore aperiam dolores optio unde, reiciendis amet ratione voluptate nobis quisquam aut cumque voluptatem, quidem ipsum vel iste esse cum rem culpa ad beatae. Sunt sint eos nulla repellendus tempora doloribus tenetur officiis dolores sapiente voluptates, quia natus deserunt explicabo totam cumque quibusdam dolor culpa! Mollitia repellendus culpa adipisci exercitationem hic nobis ad suscipit rem esse pariatur, illum accusamus inventore ex aliquid reprehenderit officiis quia amet animi. Quae est doloribus mollitia accusamus dicta! Laudantium labore sunt, est sed commodi porro explicabo id cumque distinctio harum numquam velit repellendus! Sint veritatis vero atque maxime odio libero ipsa iusto repellat vitae recusandae, culpa, molestias ea veniam? Quo in beatae quas aspernatur perspiciatis, quasi, nihil sed aliquid corrupti ut accusantium dolorem sit error rem ad ratione. Illum voluptatem delectus animi iste porro ex beatae dolorum deleniti nihil temporibus nisi culpa, explicabo quidem, laboriosam libero. Totam, cupiditate? Eius, error. Quaerat dolor iste eius minima beatae tenetur a quos suscipit molestiae ipsum mollitia labore debitis molestias aut rerum consequuntur aliquam asperiores praesentium vitae dolorem possimus illum, necessitatibus omnis corrupti? Exercitationem cumque, soluta quam non veritatis animi! Reprehenderit maxime facilis, quisquam quia corporis rerum officia quae vel nam, iusto aspernatur culpa eligendi magnam, cumque minus nihil rem nesciunt consequuntur vero commodi harum? Consequuntur nam perferendis eaque quod, tenetur quaerat praesentium vitae quidem numquam soluta perspiciatis ab reiciendis aperiam fuga sint modi aliquam repellendus, in ipsam a et illo voluptatem? Quis accusamus obcaecati tenetur, delectus soluta voluptatibus earum quod. Saepe eveniet distinctio laborum provident nulla nam eligendi dignissimos ad cumque voluptatibus assumenda, aut non, voluptates nesciunt rem commodi aperiam numquam quaerat quis perspiciatis culpa quos! Voluptas sed natus maxime. Saepe minima perspiciatis illo impedit harum, maxime repudiandae sapiente eum itaque dicta quod nostrum ipsa. Suscipit nesciunt vero distinctio corporis praesentium aut velit! Quas quis culpa ipsum deserunt quia ab odio asperiores illo hic eum sapiente dolorem, et, voluptas aliquam officiis tempore aperiam harum eaque dignissimos at praesentium quod, nulla libero ipsa. Nesciunt itaque eos dolorum quibusdam laborum optio earum illo, esse deleniti doloribus rerum similique mollitia fugiat blanditiis ratione? Optio dolorum culpa officiis itaque, odit eveniet dignissimos repudiandae beatae hic nobis nulla minima ipsum mollitia a eum aliquam fugit ratione necessitatibus. Quibusdam optio quis impedit distinctio est dolores eligendi repellat provident odio dolorem reprehenderit, voluptates laboriosam nobis repudiandae qui consequuntur repellendus cum maiores unde minus a sed? Numquam impedit facilis harum. Nostrum obcaecati atque quaerat, tenetur illum debitis neque repellendus laudantium mollitia labore ratione, est velit rerum recusandae quis placeat, exercitationem perspiciatis facere sit blanditiis totam non aliquam! Voluptates similique dolorum ipsa aut minima!</p>
+
+
+
+
+
+      <!--#################### AKHIR ######################-->
+      <div style="margin-top:5000px;"></div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    </body>
+    
+    </html>

@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Bootstrap Exercise</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          HTML Elements
+        </a>
+        <div class="dropdown-menu" aria-labelledby="html">
+          <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+          <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+          <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+          <a class="dropdown-item" href="1_5_code.html">Code</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Utilities
+        </a>
+        <div class="dropdown-menu" aria-labelledby="utilities">
+          <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+          <a class="dropdown-item" href="2_3_floats_position.html">Floats & Position</a>
+          <a class="dropdown-item" href="2_4_colors_background.html">Colors & Background</a>
+          <a class="dropdown-item" href="2_5_spacing_sizing.html">Spacing & Sizing</a>
+          <a class="dropdown-item" href="2_6_border_shadow.html">Border & Shadow</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Css Components
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="3_2_buttons.html">Buttons</a>
+          <a class="dropdown-item" href="3_3_nav_navbar.html">Nav & Navbar</a>
+          <a class="dropdown-item" href="3_4_jumbotron.html">Jumbotron</a>
+          <a class="dropdown-item" href="3_5_list_groups_badges.html">List Groups & Badges</a>
+          <a class="dropdown-item" href="3_6_form_inputs.html">Form & Inputs</a>
+          <a class="dropdown-item" href="3_7_inputs_group.html">Input Groups</a>
+          <a class="dropdown-item" href="3_8_alerts_progress.html">Alerts & Progress</a>
+          <a class="dropdown-item" href="3_9_pagination.html">Pagination</a>
+          <a class="dropdown-item" href="3_10_cards.html">Cards</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Grid & Flexbox
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="4_2_container_row_column.html">4.2 Container, Row & Column</a>
+          <a class="dropdown-item" href="4_3_responsive_breakpoints.html">4.3 Responsive Breakpoints</a>
+          <a class="dropdown-item" href="4_4_grid_system.html">4.4 Grid System</a>
+          <a class="dropdown-item" href="4_5_grid_alignment.html">4.5 Grid Alignment</a>
+          <a class="dropdown-item" href="4_6_flexbox.html">4.6 Flexbox</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Javascript Widgets
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="5_2_carousel.html">5.2 Carousel</a>
+          <a class="dropdown-item" href="5_3_collapse.html">5.3 Collapse</a>
+          <a class="dropdown-item" href="5_4_dropdowns.html">5.4 Dropdowns</a>
+          <a class="dropdown-item" href="5_5_popovers.html">5.5 Popovers</a>
+          <a class="dropdown-item active" href="5_6_modals.html">5.6 Modals</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ################# Start Exercise ################-->
+
+  <header class="text-center my-4">
+    <h1 class="text-monospace text-primary">Modals</h1>
+  </header>
+
+  <div class="container">
+
+    <h5 class="text-left text-primary">Modal</h5>
+
+    <!-- MODAL TRIGGER -->
+    <button class="btn btn-warning text-light" data-toggle="modal" data-target="#myModal">Launch Modal</button>
+
+    <!-- MODAL -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="font-weight-normal text-monospace text-warning modal-title">Modal Title</h1>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, maiores! Harum odit modi beatae similique
+            voluptatem quidem, officia quasi repellat!
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+    <hr class="bg-danger"><br>
+
+    <!-- LOGIN MODAL TRIGGER -->
+    <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Sign Up</button>
+
+    <!-- LOGIN MODAL -->
+    <div class="modal fade" id="loginModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-primary">Sign Up</h4>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <!-- Untuk nama pribadi -->
+              <div class="form-group">
+                <label for="name">Name</label>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First Name" id="name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>
+              <!-- untuk username -->
+              <div class="form-group">
+                <label for="username">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input id="username" class="form-control" type="text" placeholder="Username">
+                </div>
+              </div>
+              <!-- untuk password -->
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Type password">
+              </div>
+              <!-- ketik ulang password -->
+              <div class="form-group">
+                <label for="password">Re-Password</label>
+                <input type="password" class="form-control" id="Re-Type password" placeholder="Re-Type password">
+              </div>
+              <!-- untuk email -->
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <small class="form-text text-muted">Your Email won't be shared</small>
+              </div>
+              <!-- Jenis Kelamin -->
+              <!-- Male -->
+              <div class="form-group form-check form-check-inline">
+                <label class="form-check-label" for="male">
+                  <input class="form-check-input" type="radio" name="gender" id="male" value="male">Male
+                </label>
+              </div>
+              <!-- Female -->
+              <div class="form-group form-check form-check-inline">
+                <label class="form-check-label" for="female">
+                  <input class="form-check-input" type="radio" name="gender" id="female" value="female">Female
+                </label>
+              </div>
+              <!-- Tempat kuliah -->
+              <div class="form-group">
+                <label for="collage">Your Collage</label>
+                <select class="form-control" id="collage">
+                  <option value="ui">UI</option>
+                  <option value="gunadarma">Gunadarma</option>
+                  <option value="trisakti">Trisakti</option>
+                  <option value="pancasila">Pancasila</option>
+                </select>
+              </div>
+              <!-- Jurusan -->
+              <div class="form-group">
+                <label for="major">Your Major</label>
+                <select class="form-control" id="major">
+                  <optgroup label="Teknik" class="text-primary">
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="tm">Teknik Mesin</option>
+                    <option value="te">Teknik Elektro</option>
+                  </optgroup>
+                  <optgroup label="Keuangan" class="text-info">
+                    <option value="ak">Akutansi</option>
+                    <option value="mb">Management Bisnis</option>
+                  </optgroup>
+                  <optgroup label="Sastra" class="text-danger">
+                    <option value="indo">Sastra Indonesia</option>
+                    <option value="fre">Sastra Prancis</option>
+                  </optgroup>
+                  <optgroup label="Sosial" class="text-warning">
+                    <option value="psikologi">Psikologi</option>
+                    <option value="sosiologi">Sosiologi</option>
+                    <option value="filsuf">Filsafat</option>
+                  </optgroup>
+                  <optgroup label="Mipa">
+                    <option value="bio">Biologi</option>
+                    <option value="mtk">Matematika</option>
+                    <option value="fis">Fisika</option>
+                    <option value="kimia">Kimia</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-group">
+                <div class="mb-3">
+                  <label for="validationTextarea">Address</label>
+                  <textarea class="form-control" id="validationTextarea" placeholder="Address"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="myFile">Image Profile</label>
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="myFile">
+                  <label class="custom-file-label" for="myFile">Choose File</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!--#################### Ending Exercise ############-->
+
+  <div style="margin-top: 400px;"></div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

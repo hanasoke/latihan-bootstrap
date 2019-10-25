@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Exercise</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HTML Elements
+          </a>
+          <div class="dropdown-menu" aria-labelledby="html">
+            <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+            <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+            <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+            <a class="dropdown-item" href="1_5_code.html">Code</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Utilities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="utilities">
+            <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+            <a class="dropdown-item" href="2_3_floats_position.html">Floats & Position</a>
+            <a class="dropdown-item" href="2_4_colors_background.html">Colors & Background</a>
+            <a class="dropdown-item" href="2_5_spacing_sizing.html">Spacing & Sizing</a>
+            <a class="dropdown-item" href="2_6_border_shadow.html">Border & Shadow</a>
+          </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Css Components
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="3_2_buttons.html">Buttons</a>
+              <a class="dropdown-item" href="3_3_nav_navbar.html">Nav & Navbar</a>
+              <a class="dropdown-item" href="3_4_jumbotron.html">Jumbotron</a>
+              <a class="dropdown-item" href="3_5_list_groups_badges.html">List Groups & Badges</a>
+              <a class="dropdown-item" href="3_6_form_inputs.html">Form & Inputs</a>
+              <a class="dropdown-item" href="3_7_inputs_group.html">Input Groups</a>
+              <a class="dropdown-item" href="3_8_alerts_progress.html">Alerts & Progress</a>
+              <a class="dropdown-item" href="3_9_pagination.html">Pagination</a>
+              <a class="dropdown-item" href="3_10_cards.html">Cards</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Grid & Flexbox
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="4_2_container_row_column.html">4.2 Container, Row & Column</a>
+              <a class="dropdown-item" href="4_3_responsive_breakpoints.html">4.3 Responsive Breakpoints</a>
+              <a class="dropdown-item" href="4_4_grid_system.html">4.4 Grid System</a>
+              <a class="dropdown-item" href="4_5_grid_alignment.html">4.5 Grid Alignment</a>
+              <a class="dropdown-item" href="4_6_flexbox.html">4.6 Flexbox</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Javascript Widgets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="5_2_carousel.html">5.2 Carousel</a>
+              <a class="dropdown-item" href="5_3_collapse.html">5.3 Collapse</a>
+              <a class="dropdown-item active" href="5_4_dropdowns.html">5.4 Dropdowns</a>
+              <a class="dropdown-item" href="5_5_popovers.html">5.5 Popovers</a>
+              <a class="dropdown-item" href="">5.6 Modals</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+
+    <!-- ################# Start Exercise ################-->
+    <header class="text-info text-center my-4">
+      <h5 class="display-4">Dropdowns</h5>
+    </header>
+
+    <div class="container">
+      <h5>Single Dropdown</h5>
+      <div class="dropdown">
+        <button class="btn btn-info btn-lg dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+              Dropdown
+            </button>
+        <div class="dropdown-menu" aria-labelledby="triggerId">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item disabled" href="#">Disabled action</a>
+          <h6 class="dropdown-header">Section header</h6>
+          <a class="dropdown-item" href="#">Action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">After divider action</a>
+        </div>
+      </div>
+
+      <br><hr class="bg-primary"><br>
+
+      <h5 class="text-monospace">Split Button</h5>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-warning text-light">Action</button>
+        <a href="" class="btn btn-outline-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Someone else here</a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">Separated link</a>
+        </div>
+      </div>
+
+      <br><hr class="bg-info"><br>
+
+      <h3 class="text-monospace text-primary">Direction</h3>
+
+      <!-- dropup, dropright, dropleft -->
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+          Menu
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another Action</a>
+          <a class="dropdown-item" href="#">Something else hire</a>
+        </div>
+      </div>
+
+      <br><br><hr><br>
+
+      <div class="dropup text-center">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+          Menu
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another Action</a>
+          <a class="dropdown-item" href="#">Something else hire</a>
+        </div>
+      </div>
+
+      <br><br><hr><br>
+
+      <div class="dropright text-center">
+        <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+          Menu
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another Action</a>
+          <a class="dropdown-item" href="#">Something else hire</a>
+        </div>
+      </div>
+
+      <br><br><hr><br>
+
+      <div class="btn-group dropleft offset-5">
+          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropleft
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Other Action</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Soemone else here</a>
+          </div>
+        </div>
+
+    </div>
+
+    <!--#################### Ending Exercise ############-->
+
+    <div style="margin-top: 400px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

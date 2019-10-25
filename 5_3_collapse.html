@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Exercise</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HTML Elements
+          </a>
+          <div class="dropdown-menu" aria-labelledby="html">
+            <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+            <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+            <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+            <a class="dropdown-item" href="1_5_code.html">Code</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Utilities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="utilities">
+            <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+            <a class="dropdown-item" href="2_3_floats_position.html">Floats & Position</a>
+            <a class="dropdown-item" href="2_4_colors_background.html">Colors & Background</a>
+            <a class="dropdown-item" href="2_5_spacing_sizing.html">Spacing & Sizing</a>
+            <a class="dropdown-item" href="2_6_border_shadow.html">Border & Shadow</a>
+          </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Css Components
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="3_2_buttons.html">Buttons</a>
+              <a class="dropdown-item" href="3_3_nav_navbar.html">Nav & Navbar</a>
+              <a class="dropdown-item" href="3_4_jumbotron.html">Jumbotron</a>
+              <a class="dropdown-item" href="3_5_list_groups_badges.html">List Groups & Badges</a>
+              <a class="dropdown-item" href="3_6_form_inputs.html">Form & Inputs</a>
+              <a class="dropdown-item" href="3_7_inputs_group.html">Input Groups</a>
+              <a class="dropdown-item" href="3_8_alerts_progress.html">Alerts & Progress</a>
+              <a class="dropdown-item" href="3_9_pagination.html">Pagination</a>
+              <a class="dropdown-item" href="3_10_cards.html">Cards</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Grid & Flexbox
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="4_2_container_row_column.html">4.2 Container, Row & Column</a>
+              <a class="dropdown-item" href="4_3_responsive_breakpoints.html">4.3 Responsive Breakpoints</a>
+              <a class="dropdown-item" href="4_4_grid_system.html">4.4 Grid System</a>
+              <a class="dropdown-item active" href="4_5_grid_alignment.html">4.5 Grid Alignment</a>
+              <a class="dropdown-item" href="4_6_flexbox.html">4.6 Flexbox</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Javascript Widgets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="5_2_carousel.html">5.2 Carousel</a>
+              <a class="dropdown-item active " href="5_3_collapse.html">5.3 Collapse</a>
+              <a class="dropdown-item" href="5_4_dropdowns.html">5.4 Dropdowns</a>
+              <a class="dropdown-item" href="">5.5 Popovers</a>
+              <a class="dropdown-item" href="">5.6 Modals</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+
+    <!-- ################# Start Exercise ################-->
+
+    <header class="display-4 text-center text-primary my-4">
+      <p>Collapse</p>
+    </header>
+
+    <div class="container">
+
+      <!-- Button with Collapse -->
+      <button class="btn btn-success text-monospace mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More</button>
+
+      <div class="collapse mb-5" id="collapse-btn-1">
+        <div class="card">
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi fugit hic magni iste eum saepe, eaque laudantium soluta. Quibusdam.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion -->
+      <div class="accordion" id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <h5>
+              <a href="#collapse1" data-toggle="collapse" class="text-info">Collapse One</a>
+            </h5>
+          </div>
+
+          <div id="collapse1" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem, sequi ad magni quos suscipit similique velit molestias! Quo, possimus?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5>
+              <a href="#collapse2" data-toggle="collapse" class="text-success">Collapse Two</a>
+            </h5>
+          </div>
+
+          <div id="collapse2" class="collapse" data-parent="#accordion">
+            <div class="card-body font-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus optio voluptatibus id ipsa recusandae! Repudiandae commodi excepturi tempora rem.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+        <div class="card-header">
+          <h5>
+            <a href="#collapse3" data-toggle="collapse">Collapse Three</a>
+          </h5>
+        </div>
+
+        <div id="collapse3" class="collapse" data-parent="#accordion">
+          <div class="card-body text-monospace">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus optio voluptatibus id ipsa recusandae! Repudiandae commodi excepturi tempora rem.
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5>
+              <a href="#collapse4" data-toggle="collapse" class="text-warning">Collapse Four</a>
+            </h5>
+          </div>
+  
+          <div id="collapse4" class="collapse" data-parent="#accordion">
+            <div class="card-body text-monospace">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus optio voluptatibus id ipsa recusandae! Repudiandae commodi excepturi tempora rem.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+
+
+    <!--#################### AKHIR ######################-->
+
+    <div style="margin-top: 400px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

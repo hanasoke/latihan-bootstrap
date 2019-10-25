@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Image Figure</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HTML Elements
+          </a>
+          <div class="dropdown-menu" aria-labelledby="html">
+            <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+            <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+            <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+            <a class="dropdown-item" href="1_5_code.html">Code</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Utilities
+            </a>
+            <div class="dropdown-menu" aria-labelledby="utilities">
+              <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+              <a class="dropdown-item" href="">Floats & Position</a>
+              <a class="dropdown-item" href="">Colors & Background</a>
+              <a class="dropdown-item" href="">Spacing & Shadow</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Css Components
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="">Buttons</a>
+                  <a class="dropdown-item" href="">Nav & Navbar</a>
+                  <a class="dropdown-item" href="">Jumbotron</a>
+                  <a class="dropdown-item" href="">List Groups & Badges</a>
+                  <a class="dropdown-item" href="">Form & Inputs</a>
+                  <a class="dropdown-item" href="">Input Groups</a>
+                  <a class="dropdown-item" href="">Alerts & Progress</a>
+                  <a class="dropdown-item" href="">Pagination</a>
+                  <a class="dropdown-item" href="">Cards</a>
+              </div>
+            </li>
+      </ul>
+    </nav>
+
+    <header class="display-4 text-center my-4">
+        <p>How to Type Code on Bootstrap</p>
+    </header>
+
+    <!-- ######### Start Exercise #########-->
+    <div class="container">
+
+      <p class="lead h3">Inline Code</p>
+      <code class="display-1">&lt;h1&gt;&lt;/h1&gt;</code> adalah tag untuk membuat judul
+      <br>
+      <code>&lt;img&gt;</code>&nbsp;adalah tag untuk memasukkan gambar
+      <br>
+      <code>&lt;nav&gt;&lt;/nav&gt;</code> adalah tag untuk membuat navigasi
+
+      <br><br>
+      <p class="h4 text-lowercase">MULTILINE / CODE BLOCKS</p>
+      <pre class="text-white bg-dark text-left col-md-5">
+        <code>
+          &lt;?php
+            function show_massages($name) {
+              return 'Good Evening' . $name;
+            }
+          ?&gt;
+        </code>
+      </pre>
+
+      <br>
+
+      <p class="display-3">Lorem ipsum dolor sit amet.</p>
+      <p>Dibawah adalah contoh sintaks javascript untuk melakukan ajax : </p>
+
+      <pre class="pre-scrollable bg-warning text-primary col-sm-7">
+          let keyword = document.getElementById('keyword');
+          let container = document.getElementById('container');
+          let tombol = document.getElementById('tombol');
+          
+          tombol.style.display = 'none';
+          
+          keyword.addEventListener('keyup', function() {   
+              let xhr = new XMLHttpRequest();
+          
+              xhr.onreadystatechange = function() {
+                  if( xhr.readyState == 4 && xhr.status == 200 ) {
+                      container.innerHTML = xhr.responseText;
+                  }
+              }
+          
+              xhr.open('get', 'cari_ajax.php?keyword=' + keyword.value);
+              xhr.send();
+          });
+      </pre>
+
+      <br>
+
+      <h4 class="lead capitalized">User Input</h4>
+
+      <table class="table table-bordered col-sm-6 table-hover">
+        <thead>
+          <tr class="text-center">
+            <th>Button</th>
+            <th>Fungsi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><kbd>alt</kbd></td>
+            <td>untuk menampilkan file pada code editor</td>
+          </tr>
+          <tr>
+            <td><kbd>caps lock</kbd></td>
+            <td>untuk mengetik huruf kapital</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+
+      <h3>Sample Output</h3>
+
+      <p>Setelah mengetikkan <code class="h5">alert(hasil)</code>, maka harusnya tampil seperti dibawah</p>
+      <samp>angka yang anda masukkan adalah 50</samp>
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

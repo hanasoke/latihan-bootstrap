@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Bootstrap Exercise</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="html" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          HTML Elements
+        </a>
+        <div class="dropdown-menu" aria-labelledby="html">
+          <a class="dropdown-item" href="1_2_typography.html">Basic Typography</a>
+          <a class="dropdown-item" href="1_3_image_figures.html">Images & Figures</a>
+          <a class="dropdown-item" href="1_4_tables.html">Tables</a>
+          <a class="dropdown-item" href="1_5_code.html">Code</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="utilities" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Utilities
+        </a>
+        <div class="dropdown-menu" aria-labelledby="utilities">
+          <a class="dropdown-item" href="2_2_text_alignment_display.html">Text Alignment & Display</a>
+          <a class="dropdown-item" href="2_3_floats_position.html">Floats & Position</a>
+          <a class="dropdown-item" href="2_4_colors_background.html">Colors & Background</a>
+          <a class="dropdown-item" href="2_5_spacing_sizing.html">Spacing & Sizing</a>
+          <a class="dropdown-item" href="2_6_border_shadow.html">Border & Shadow</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Css Components
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="3_2_buttons.html">Buttons</a>
+          <a class="dropdown-item" href="3_3_nav_navbar.html">Nav & Navbar</a>
+          <a class="dropdown-item" href="3_4_jumbotron.html">Jumbotron</a>
+          <a class="dropdown-item" href="3_5_list_groups_badges.html">List Groups & Badges</a>
+          <a class="dropdown-item" href="3_6_form_inputs.html">Form & Inputs</a>
+          <a class="dropdown-item" href="3_7_inputs_group.html">Input Groups</a>
+          <a class="dropdown-item" href="3_8_alerts_progress.html">Alerts & Progress</a>
+          <a class="dropdown-item" href="3_9_pagination.html">Pagination</a>
+          <a class="dropdown-item" href="3_10_cards.html">Cards</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Grid & Flexbox
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="4_2_container_row_column.html">4.2 Container, Row & Column</a>
+          <a class="dropdown-item active" href="4_3_responsive_breakpoints.html">4.3 Responsive Breakpoints</a>
+          <a class="dropdown-item" href="4_4_grid_system.html">4.4 Grid System</a>
+          <a class="dropdown-item" href="4_5_grid_alignment.html">4.5 Grid Alignment</a>
+          <a class="dropdown-item" href="4_6_flexbox.html">4.6 Flexbox</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ################# Start Exercise ################-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <header class="text-center my-4">
+          <h1 class="text-secondary text-uppercase">Responsive Breakpoints</h1>
+        </header>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col" style="border: 1px solid #333;">col</div>
+      <div class="col" style="border: 1px solid #333;">col</div>
+      <div class="col" style="border: 1px solid #333;">col</div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md" style="border: 1px solid #333">Berubah ketika &lt; medium</div>
+      <div class="col-md" style="border: 1px solid #333">Berubah ketika &lt; medium</div>
+      <div class="col-md" style="border: 1px solid #333">Berubah ketika &lt; medium</div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-5" style="border: 1px solid #333">ukurannya 5 column ketika medium</div>
+      <div class="col-md-3" style="border: 1px solid #333">ukurannya 3 column ketika medium</div>
+      <div class="col-md-4" style="border: 1px solid #333">ukurannya 4 column ketika medium</div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col" style="border: 1px solid #333">Otomatis</div>
+      <div class="col-7" style="border: 1px solid #333">Manual 7</div>
+      <div class="col-3" style="border: 1px solid #333">Manual 3</div>
+    </div>
+
+    <div class="row text-center mb-5">
+      <div class="col order-2" style="border: 2px solid #333">First Element</div>
+      <div class="col order-4" style="border: 2px solid #333">Secondy Element</div>
+      <div class="col order-1" style="border: 2px solid #333">Third Element</div>
+      <div class="col order-3" style="border: 2px solid #333">Forth Element</div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-9 text-center" style="border: 3px solid lightgreen">Level 1: .col-sm-9
+        <div class="row">
+          <div class="col-8 col-sm-6" style="border: 1px solid lightblue;">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4 col-sm-6" style="border: 1px solid lightblue;">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col" style="border: 3px solid lightgreen">
+        <h5>Margin Bottom</h5>
+        <h1 class="mb-0 bg-warning">Margin Bottom 0</h1>
+        <h1 class="mb-1 bg-warning">Margin Bottom 1</h1>
+        <h1 class="mb-2 bg-warning">Margin Bottom 2</h1>
+        <h1 class="mb-3 bg-warning">Margin Bottom 3</h1>
+        <h1 class="mb-4 bg-warning">Margin Bottom 4</h1>
+        <h1 class="mb-5 bg-warning">Margin Bottom 5</h1>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col" style="border: 3px solid lightgrey;">
+        <h5>Margin Left & Right (sumbu-x)</h5>
+        <p>Lorem ipsum
+          <span class="mx-5 bg-success">Margin Left & Right 5</span>, consectetur elit. Voluptatum, optio.</p>
+
+        <br>
+        <hr>
+
+        <h5>Margin Top & Bottom (sumbu-y)</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+        <p class="my-5 bg-success">Margin Top & Bottom 5</p>
+        <p>Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+
+        <br><br><br><br>
+        <hr>
+
+        <h5>Margin Semua sisi sekaligus</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+        <p class="m-5 bg-success">Margin All Sides 5</p>
+        <p>Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!--#################### AKHIR ######################-->
+
+  <div style="margin-top: 100px;"></div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
